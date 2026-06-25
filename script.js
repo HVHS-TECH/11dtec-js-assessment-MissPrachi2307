@@ -10,11 +10,11 @@ const PRODUCT_PRICE_FIELD = document.getElementById("ProductPriceField");
 
 function getFormInput(){
     let userName = NAME_FIELD.value;
-    OUTPUT.innerHTML += "<p> Your name is " + userName + "</p>";
+    OUTPUT.innerHTML = "<p> Your name is " + userName + "</p>";
     let userProduct = PRODUCT_FIELD.value;
-    OUTPUT.innerHTML += "<p> Your product is " + userProduct + "</p>";
+    OUTPUT.innerHTML = "<p> Your product is " + userProduct + "</p>";
     let userAge = AGE_FIELD.value;
-    OUTPUT.innerHTML += "<p> Your age is " + userAge + "</p>";
+    OUTPUT.innerHTML = "<p> Your age is " + userAge + "</p>";
     let userProductPrice = PRODUCT_PRICE_FIELD.value;
-    OUTPUT.innerHTML += "<p> Your product price is $" + userProductPrice + "</p>";
+    OUTPUT.innerHTML = "<p> Your product price is $" + userProductPrice + "</p>";
 }
