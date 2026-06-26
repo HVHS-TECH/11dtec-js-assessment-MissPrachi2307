@@ -2,7 +2,7 @@
 var userName;
 
 console.log("Hello world, welcome to my mini cafe!")
-   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 const NAME_FIELD = document.getElementById("nameField");
 const PRODUCT_FIELD = document.getElementById("productField");
 const AGE_FIELD = document.getElementById("AgeField");
