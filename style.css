@@ -1,4 +1,7 @@
 body{
     background-color:#957662;
     color: aquamarine;
+    font: size 2px;
+    font-style:oblique;
+    font-weight: 200;
 }
