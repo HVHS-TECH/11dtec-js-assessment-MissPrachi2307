@@ -6,7 +6,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 const NAME_FIELD = document.getElementById("nameField");
 const PRODUCT_FIELD = document.getElementById("productField");
 const AGE_FIELD = document.getElementById("AgeField");
-const PRODUCT_PRICE_FIELD = document.getElementById("ProductPriceField");
+
 function getFormInput(){
     let userName = NAME_FIELD.value;
     OUTPUT.innerHTML = "<p> Your name is " + userName + "</p>";
