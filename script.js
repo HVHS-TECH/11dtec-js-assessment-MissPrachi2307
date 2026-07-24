@@ -1,3 +1,5 @@
+const { captureOwnerStack } = require("react");
+
 console.log("Running script.js")
 console.log("Hello world, welcome to my mini cafe!")
 
@@ -15,8 +17,11 @@ let order = [];
 let totalPrice = 0;
 
 
-function addOrder(foodName,cakePrice){
-    let 
+function addOrder(foodName,foodPrice){
+    let food ={name:foodName, price: foodPrice};
+    order.push(food);
+    totalPrice = totalPrice + food.price;
+    document.getElementByI()
 
 
 
