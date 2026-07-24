@@ -7,6 +7,6 @@ const ietms = [
     {name: "Creamy lamb pasta ",Price:20},
     {name:"Dumpling Soup", Price:25},
     {name:"Orange refresher",Price:15},
-    {name:"Strawberry Lemonade",Price:}
+    {name:"Strawberry Lemonade",Price:18},
 
 ]
