@@ -10,3 +10,6 @@ const ietms = [
     {name:"Strawberry Lemonade",Price:18},
 
 ]
+
+let order = [];
+let totalPrice = 0;
