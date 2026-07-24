@@ -13,3 +13,15 @@ const ietms = [
 
 let order = [];
 let totalPrice = 0;
+
+
+function addOrder(foodName,cakePrice){
+    let 
+
+
+
+
+
+
+
+}
