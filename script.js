@@ -35,13 +35,16 @@ function setOrder(){
     }
 
     if(userName ==""){
-        document.getElementById("Receipt") .INNERHTML="Please enter your name";
+        document.getElementById("Receipt") .innerHTML="Please enter your name";
         return;
     }
 
     if (money ==""){
-        docu
+        document.getElementById("Receipt") .innerHTML="Please enter money";
+        return;
     }
+
+    if(money < total)
 
 
 
