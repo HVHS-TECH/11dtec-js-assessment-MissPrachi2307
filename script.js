@@ -21,8 +21,9 @@ function addOrder(foodName,foodPrice){
     let food ={name:foodName, price: foodPrice};
     order.push(food);
     totalPrice = totalPrice + food.price;
-    document.getElementById("Order") .innerHTML +="<p>" + foodName +"$" + foodPrice +"</p>";
-    document.getElementById
+    document.getElementById("Order").innerHTML +="<p>" + foodName +"$" + foodPrice +"</p>";
+    document.getElementById("Sum").innerHTML =""
+
 
 
 
