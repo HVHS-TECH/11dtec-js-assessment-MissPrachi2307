@@ -26,7 +26,10 @@ function addOrder(foodName,foodPrice){
 }
 
 function setOrder(){
-    const userName =document.getElementById
+    const userName =document.getElementById("nameFeild").value;
+    const money = Number(document.getElementById("moneyFeild").value);
+
+    if(userName=="")
 }
 
 
