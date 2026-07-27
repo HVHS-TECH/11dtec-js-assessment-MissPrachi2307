@@ -30,7 +30,8 @@ function setOrder(){
     const money = Number(document.getElementById("moneyFeild").value);
 
     if(userName == 0){
-        document.getElementById("Recipt")
+        document.getElementById("Receipt")="Please add item before placing order";
+         return;
     }
 }
 
