@@ -27,7 +27,7 @@ function setOrder(){
     const userName =document.getElementById("nameFeild").value;
     const money = Number(document.getElementById("moneyFeild").value);
 
-    if(userName == 0){
+    if(order.length == 0){
         document.getElementById("Receipt") .innerHTML="Please add item before placing order";
          return;
     }
