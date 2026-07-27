@@ -57,7 +57,14 @@ function setOrder(){
         receiptOrder += order[I].name +"$"+ order[I].price +"<br>";
     }
 
-    document.getElementById("Receipt") .innerHTML= "<h3>Receipt</h3>" + "<p>"
+    document.getElementById("Receipt") .innerHTML= "<h3>Receipt</h3>" + "<p>Name:" + userName + "</p>"
+    + "<h3>Total:$ " + totalPrice + "</h3>" + "<p> Money given:$" + money +"</p>" + "<p> Change:$" + change +"</p>";
+
+    function resetOrder(){
+        order = ;
+
+
+    }
 
 
 
