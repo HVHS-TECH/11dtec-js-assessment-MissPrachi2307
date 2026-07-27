@@ -61,7 +61,9 @@ function setOrder(){
     + "<h3>Total:$ " + totalPrice + "</h3>" + "<p> Money given:$" + money +"</p>" + "<p> Change:$" + change +"</p>";
 
     function resetOrder(){
-        order = ;
+        order = [];
+        totalPrice= 0;
+        document.getElementById
 
 
     }
