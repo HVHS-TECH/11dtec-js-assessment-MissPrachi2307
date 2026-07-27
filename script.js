@@ -63,7 +63,11 @@ function setOrder(){
     function resetOrder(){
         order = [];
         totalPrice= 0;
-        document.getElementById
+        document.getElementById("Order") .innerHTML="";
+        document.getElementById("Sum") .innerHTML="Total:$0";
+        document.getElementById("Receipt") .innerHTML="";
+
+        
 
 
     }
