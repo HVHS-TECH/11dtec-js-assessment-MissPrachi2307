@@ -30,13 +30,21 @@ function setOrder(){
     const money = Number(document.getElementById("moneyFeild").value);
 
     if(userName == 0){
-        document.getElementById("Receipt")="Please add item before placing order";
+        document.getElementById("Receipt") .innerHTML="Please add item before placing order";
          return;
     }
 
     if(userName ==""){
-        document.getElementById("Receipt")="Please enter your name"
+        document.getElementById("Receipt") .INNERHTML="Please enter your name";
+        return;
     }
+
+    if (money ==""){
+        docu
+    }
+
+
+
 
 }
 
