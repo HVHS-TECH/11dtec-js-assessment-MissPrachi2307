@@ -23,8 +23,9 @@ function addOrder(foodName,foodPrice){
     totalPrice = totalPrice + food.price;
     document.getElementById("Order").innerHTML +="<p>" + foodName +"$" + foodPrice +"</p>";
     document.getElementById("Sum").innerHTML ="<h3>Total:$"+totalPrice+"<h3>";
+}
 
-    function
+function 
 
 
 
