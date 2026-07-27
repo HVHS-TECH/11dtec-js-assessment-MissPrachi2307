@@ -50,7 +50,7 @@ function setOrder(){
 
     }
 
-    let change = moeny - totalPrice;
+    let change = money - totalPrice;
     let receiptOrder ="";
     
     for(let I = 0; I < order.length; I ++){
