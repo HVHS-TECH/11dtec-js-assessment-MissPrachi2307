@@ -25,13 +25,14 @@ function addOrder(foodName,foodPrice){
     document.getElementById("Sum").innerHTML ="<h3>Total:$"+totalPrice+"<h3>";
 }
 
-function 
-
-
-
-
-
-
-
-
+function setOrder(){
+    const userName =document.getElementById
 }
+
+
+
+
+
+
+
+
