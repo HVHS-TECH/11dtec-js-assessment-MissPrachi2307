@@ -60,7 +60,14 @@ function setOrder(){
     document.getElementById("Receipt") .innerHTML= "<h3>Receipt</h3>" + "<p>Name:" + userName + "</p>"
     + "<h3>Total:$ " + totalPrice + "</h3>" + "<p> Money given:$" + money +"</p>" + "<p> Change:$" + change +"</p>";
 
-    function resetOrder(){
+    
+
+
+
+}
+
+
+function resetOrder(){
         order = [];
         totalPrice= 0;
         document.getElementById("Order") .innerHTML="";
@@ -71,13 +78,6 @@ function setOrder(){
 
 
     }
-
-
-
-
-}
-
-
 
 
 
