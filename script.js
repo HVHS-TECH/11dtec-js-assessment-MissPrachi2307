@@ -30,7 +30,7 @@ function setOrder(){
     const money = Number(document.getElementById("moneyFeild").value);
 
     if(userName == 0){
-        document.getElementById
+        document.getElementById("Recipt")
     }
 }
 
