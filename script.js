@@ -33,6 +33,8 @@ function setOrder(){
         document.getElementById("Receipt")="Please add item before placing order";
          return;
     }
+
+    
 }
 
 
