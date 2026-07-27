@@ -29,7 +29,9 @@ function setOrder(){
     const userName =document.getElementById("nameFeild").value;
     const money = Number(document.getElementById("moneyFeild").value);
 
-    if(userName=="")
+    if(userName == 0){
+        document.getElementById
+    }
 }
 
 
