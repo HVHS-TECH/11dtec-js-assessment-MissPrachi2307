@@ -44,7 +44,11 @@ function setOrder(){
         return;
     }
 
-    if(money < total)
+    if(money < totalPrice){
+        document.getElementById("Receipt") .innerHTML=
+
+
+    }
 
 
 
