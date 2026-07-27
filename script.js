@@ -34,7 +34,10 @@ function setOrder(){
          return;
     }
 
-    
+    if(userName ==""){
+        document.getElementById("Receipt")="Please enter your name"
+    }
+
 }
 
 
