@@ -45,10 +45,19 @@ function setOrder(){
     }
 
     if(money < totalPrice){
-        document.getElementById("Receipt") .innerHTML=
-
+        document.getElementById("Receipt") .innerHTML="Not enough money";
+        return;
 
     }
+
+    let change = moeny - totalPrice;
+    let receiptOrder ="";
+    
+    for(let I = 0; I < order.length; I ++){
+        receiptOrder += order[I].name +"$"+ order[I].price +"<br>";
+    }
+
+    document.getElementById("Receipt") .innerHTML= "<h3>Receipt</h3>" + "<p>"
 
 
 
